@@ -5,7 +5,7 @@ import Hero from "./screens/Hero";
 const App = () => {
   return (
     <>
-      <div className="bg-black h-screen">
+      <div className="bg-black">
         <Header />
         <Hero />
         <Footer />
