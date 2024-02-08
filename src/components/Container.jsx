@@ -13,6 +13,16 @@ const Container = () => {
         <h3 className="text-white text-3xl font-semibold">
           National Level IT-FEST
         </h3>
+        <div className="relative">
+          <button className="mt-12 text-white border-[#EB7EF1] border-2 rounded-md p-3 uppercase font-semibold hover:bg-[#EB7EF1] hover:border-transparent hover:text-gray-900 transition duration-300 ease-in-out">
+            <a href="#">Register Now</a>
+          </button>
+          <img
+            className="absolute top-20 -right-6 w-10"
+            src="/arrow.png"
+            alt="arrow"
+          />
+        </div>
       </div>
     </>
   );
