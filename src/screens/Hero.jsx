@@ -1,5 +1,11 @@
+import Schedule from "../components/Schedule";
+
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <>
+      <Schedule />
+    </>
+  );
 };
 
 export default Hero;
