@@ -13,21 +13,3 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
-
-/* .mac-book {
-  width: 206px;
-  height: 206px;
-  position: relative;
-  overflow: hidden;
-}
-.lines {
-  height: auto;
-  position: absolute;
-  right: 6.25%;
-  left: 6.25%;
-  width: 87.49%;
-  bottom: 8.98%;
-  top: 9.77%;
-  height: 81.25%;
-  overflow: visible;
-} */

@@ -3,9 +3,7 @@ const W3Icons = () => {
     <div className="relative">
       <div>
         <svg
-          className="absolute -left-10 top-20"
-          width="182"
-          height="168"
+          className="absolute -left-10 top-10 md:top-20 w-24 h-24 md:w-36 md:h-36 lg:w-52 lg:h-52"
           viewBox="0 0 182 168"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -49,9 +47,8 @@ const W3Icons = () => {
       </div>
       <div>
         <svg
-          className="absolute top-10 -right-7"
-          width="112"
-          height="175"
+          id="bulb"
+          className="absolute top-10 -right-8 md:-right-16 w-24 h-24 md:w-36 md:h-36 lg:w-52 lg:h-52"
           viewBox="0 0 112 208"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -131,9 +128,7 @@ const W3Icons = () => {
 
       <div id="iphone">
         <svg
-          className="relative top-96 -left-5"
-          width="122"
-          height="192"
+          className="relative top-48 md:top-96 -left-7 md:-left-16 w-24 h-24 md:w-36 md:h-36 lg:w-52 lg:h-52"
           viewBox="0 0 122 192"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -185,9 +180,7 @@ const W3Icons = () => {
 
       <div id="mouse">
         <svg
-          className="absolute -right-2 top-64"
-          width="63"
-          height="107"
+          className="absolute -right-7 md:-right-12 top-48 md:top-80 w-20 h-20 md:w-36 md:h-36 lg:w-40 lg:h-40"
           viewBox="0 0 63 107"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -239,9 +232,7 @@ const W3Icons = () => {
 
       <div>
         <svg
-          className="absolute top-[27rem] -right-16"
-          width="238"
-          height="187"
+          className="absolute top-80 md:top-[36rem] -right-9 w-24 h-24 md:w-36 md:h-36 lg:w-52 lg:h-52"
           viewBox="0 0 238 187"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
