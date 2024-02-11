@@ -15,13 +15,13 @@ const Navbar = () => {
               <a href="#">HOME</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
-              <a href="#">EVENTS</a>
+              <a href="#events">EVENTS</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
               <a href="#">ABOUT</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
-              <a href="#">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ul>
           <div className="ml-[40px]">

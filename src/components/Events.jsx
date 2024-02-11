@@ -1,25 +1,19 @@
-import Timeline from "./Timeline";
-
-const Schedule = () => {
+const Events = () => {
   return (
     <>
-      <div className="flex flex-col items-start">
+      <div id="events" className="flex flex-col items-start h-screen">
         <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-          Schedule
+          Events
         </h1>
         <div className="flex justify-center items-center">
-          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-20 md:w-32 h-[1px]" />
+          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-16 md:w-24 h-[1px]" />
           <p className="text-white text-sm md:text-lg font-semibold ml-3">
-            2024
+            List
           </p>
         </div>
-      </div>
-
-      <div>
-        <Timeline />
       </div>
     </>
   );
 };
 
-export default Schedule;
+export default Events;
