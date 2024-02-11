@@ -1,14 +1,14 @@
-const Price = () => {
+const About = () => {
   return (
     <>
-      <div className="flex flex-col items-start h-screen">
+      <div id="about" className="flex flex-col items-start mt-10 mb-32">
         <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-          Prizes
+          About
         </h1>
         <div className="flex justify-center items-center">
-          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-20 md:w-28 h-[1px]" />
+          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-16 md:w-24 h-[1px]" />
           <p className="text-white text-sm md:text-lg font-semibold ml-3">
-            Cash Prizes and Certificates
+            Event & College
           </p>
         </div>
       </div>
@@ -16,4 +16,4 @@ const Price = () => {
   );
 };
 
-export default Price;
+export default About;

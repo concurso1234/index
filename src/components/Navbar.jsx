@@ -4,7 +4,7 @@ const Navbar = () => {
   const [showToggle, setShowToggle] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full bg-black text-white">
+    <div className="flex justify-between items-center w-full text-white">
       <div className="container mx-auto flex justify-between items-center p-5">
         <div>
           <h3 className="text-sm font-bold md:text-xl">CONCURSO '24</h3>
@@ -18,7 +18,7 @@ const Navbar = () => {
               <a href="#events">EVENTS</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
-              <a href="#">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
               <a href="#contact">CONTACT</a>

@@ -1,24 +1,20 @@
-import Timeline from "./Timeline";
-
-const Schedule = () => {
+const Sponser = () => {
   return (
     <>
-      <div className="flex flex-col items-start">
+      <div id="sponser" className="flex flex-col items-start mt-10 mb-32">
         <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-          Schedule
+          Our Sponsers
         </h1>
         <div className="flex justify-center items-center">
-          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-20 md:w-32 h-[1px]" />
+          <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-16 md:w-24 h-[1px]" />
           <p className="text-white text-sm md:text-lg font-semibold ml-3">
-            2024
+            Our Parterns & Sponsers
           </p>
         </div>
-      </div>
-      <div>
-        <Timeline />
+        <div className="p-8 bg-black mt-10">Sponser card</div>
       </div>
     </>
   );
 };
 
-export default Schedule;
+export default Sponser;
