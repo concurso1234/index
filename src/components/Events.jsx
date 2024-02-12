@@ -9,12 +9,12 @@ const Events = () => {
       icon: <FaLaptop color="#fff" size={45} />,
       title: "Code Racer",
       subTitle: "Language: C",
-      fPrice: 3000,
-      sPrice: 1500,
+      fPrice: 4000,
+      sPrice: 2000,
     },
     {
       icon: <FaBug color="#fff" size={45} />,
-      title: "Big Hunt",
+      title: "Bug Hunt",
       subTitle: "Language: C",
       fPrice: 3000,
       sPrice: 1500,
@@ -23,6 +23,13 @@ const Events = () => {
       icon: <FaLightbulb color="#fff" size={45} />,
       title: "Itrix",
       subTitle: "IT Quiz",
+      fPrice: 3000,
+      sPrice: 1500,
+    },
+    {
+      icon: <BiSolidJoystick color="#fff" size={45} />,
+      title: "Hazing Hunt",
+      subTitle: "Treasure Hunt",
       fPrice: 3000,
       sPrice: 1500,
     },
@@ -48,13 +55,13 @@ const Events = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-between w-full mt-8">
+        <div className="flex flex-wrap xl:flex-nowrap  justify-between w-full mt-8">
           {eventList.map(({ icon, title, subTitle, fPrice, sPrice }, index) => (
             <div
               key={index}
               className="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 mt-4"
             >
-              <div className="bg-[#242424] p-5 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer">
+              <div className="flex flex-col items-center bg-[#242424] p-5 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer">
                 <div className="p-5">{icon}</div>
                 <h1 className="text-xl text-white uppercase">{title}</h1>
                 <p className="text-sm text-gray-300">{subTitle}</p>

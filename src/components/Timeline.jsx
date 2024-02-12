@@ -4,6 +4,7 @@ import { BiSolidGame } from "react-icons/bi";
 import { FaCode } from "react-icons/fa6";
 import { GoCodescan } from "react-icons/go";
 import { FaTrophy } from "react-icons/fa";
+import { GiOpenTreasureChest } from "react-icons/gi";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -116,6 +117,30 @@ const Timeline = () => {
           <h3 className="text-xl vertical-timeline-element-title">BUG HUNT</h3>
           <h4 className="text-sm vertical-timeline-element-subtitle">
             Debugging
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            minima?
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: "#242424",
+            color: "#fff",
+            boxShadow: "none",
+          }}
+          date="2:00PM - 4:00PM"
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
+          icon={<GiOpenTreasureChest color="#fff" />}
+        >
+          <h3 className="text-xl vertical-timeline-element-title">
+            HAZING HUNT
+          </h3>
+          <h4 className="text-sm vertical-timeline-element-subtitle">
+            Treasure Hunt
           </h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
