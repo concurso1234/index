@@ -13,23 +13,23 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex p-5">
-        <div className="min-w-80 h-64">
+      <div className="flex flex-col items-center md:flex-row p-5">
+        <div className="w-64 md:min-w-64 h-64">
           <img
-            src="https://storage.googleapis.com/educrib/colleges/uploads/St.%20Joseph's%20College,%20Pilathara%20f.jpg"
+            src="/college2.jpeg"
             alt="college"
             className="w-full h-full rounded-lg shadow-stone-700 shadow-md"
           />
         </div>
-        <div className="flex flex-col text-white ml-8">
+        <div className="flex flex-col md:ml-8 mt-8 md:mt-0 text-white text-sm md:text-base">
           <p>
             <strong>Concurso</strong>, the esteemed IT fest, returns with a wave
             of anticipation and excitement. Renowned for its fusion of
             technology, creativity, and camaraderie, Concurso has left an
             indelible mark on the landscape of technological innovation. <br />
-            Previously held in 2016 and 2017, Concurso emerged as a beacon of
-            success, captivating participants and spectators alike with its
-            vibrant atmosphere and cutting-edge showcases.
+            Concurso emerged as a beacon of success, captivating participants
+            and spectators alike with its vibrant atmosphere and cutting-edge
+            showcases.
           </p>
           <p>
             <br />

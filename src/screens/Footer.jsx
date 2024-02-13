@@ -22,7 +22,7 @@ const Footer = () => {
         <div className=" md:text-left mb-8 md:mb-0 ">
           <h1 className="text-xl text-center font-bold text-white">Socials</h1>
           <div className="flex justify-evenly mt-4 -space-x-10 md:space-x-6">
-            <a href="http://instagram.com/" target="_blank">
+            <a href="http://instagram.com/concurso_.24" target="_blank">
               <FaInstagram color="#fff" className="text-xl" />
             </a>
             <a href="http://wa.me/+919847584237" target="_blank">

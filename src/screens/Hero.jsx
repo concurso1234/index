@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="container space-y-20">
       <Events />
       <Schedule />
-      <Sponser />
+      {/* <Sponser /> */}
       <About />
     </div>
   );

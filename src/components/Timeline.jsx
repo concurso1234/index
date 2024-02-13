@@ -1,3 +1,4 @@
+import { FaPen } from "react-icons/fa";
 import { FaCut } from "react-icons/fa";
 import { MdQuiz } from "react-icons/md";
 import { BiSolidGame } from "react-icons/bi";
@@ -12,153 +13,89 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
+  const schedules = [
+    {
+      date: "9:00AM - 10:00AM",
+      icon: <FaPen color="#fff" />,
+      title: "Registration",
+      subTitle: "Online and Spot",
+      text: "Secure your spot and unlock endless possibilities by registering for our captivating IT fest today.",
+    },
+    {
+      date: "10:00AM - 11:30AM",
+      icon: <FaCut color="#fff" />,
+      title: "Inaugration",
+      subTitle: "Online and Spot",
+      text: "Join us as we kick off our IT fest with an inspiring inauguration ceremony.",
+    },
+    {
+      date: "11:30AM - 12:30AM",
+      icon: <MdQuiz color="#fff" />,
+      title: "ITRIX",
+      subTitle: "IT Quiz",
+      text: "Test your knowledge and compete in our thrilling IT quiz competition.",
+    },
+    {
+      date: "11:30AM - 1:00PM",
+      icon: <BiSolidGame color="#fff" />,
+      title: "Gaming",
+      subTitle: "e-Football 2024",
+      text: "Step into the virtual arena and compete in the adrenaline-fueled eFootball 2024 tournament.",
+    },
+    {
+      date: "2:00PM - 3:00PM",
+      icon: <FaCode color="#fff" />,
+      title: "Code Racer",
+      subTitle: "Coding",
+      text: "Unleash your coding prowess and conquer challenges in our coding competition.",
+    },
+    {
+      date: "2:00PM - 3:00PM",
+      icon: <GoCodescan color="#fff" />,
+      title: "Bug Hunt",
+      subTitle: "Debugging",
+      text: "Sharpen your debugging skills and tackle complex problems head-on.",
+    },
+    {
+      date: "2:00PM - 4:00PM",
+      icon: <GiOpenTreasureChest color="#fff" />,
+      title: "Hazine Hunt",
+      subTitle: "Treasure Hunt",
+      text: "Embark on an exhilarating adventure and uncover hidden treasures in our thrilling treasure hunt",
+    },
+    {
+      date: "2:00PM - 4:00PM",
+      icon: <FaTrophy color="#fff" />,
+      title: "Closing ceremony",
+      subTitle: "Prize Distribution",
+      text: "Celebrate the culmination of our IT fest with an unforgettable closing ceremony filled with joy and camaraderie.",
+    },
+  ];
+
   return (
     <div className="mt-10">
       <VerticalTimeline lineColor="linear-gradient(180deg, #bb29ff 0%, #4299E1 100%)">
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-            // borderRight: "5px solid #bb29ff",
-          }}
-          contentArrowStyle={{
-            borderRight:
-              "7px solid  linear-gradient(to right, rgb(139, 92, 246), rgb(66, 153, 225))",
-          }}
-          date="10:00PM - 11:30PM"
-          iconStyle={{ background: "#6864ed ", boxShadow: "none" }}
-          icon={<FaCut color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">
-            INAUGRATION
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="11:30AM - 12:30AM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<MdQuiz color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">ITRIX</h3>
-          <h4 className="text-sm vertical-timeline-element-subtitle">
-            IT Quiz
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="11:30AM - 1:00PM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<BiSolidGame color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">GAMING</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="2:00PM - 3:00PM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<FaCode color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">
-            CODE RACER
-          </h3>
-          <h4 className="text-sm vertical-timeline-element-subtitle">Coding</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="3:00PM - 4:00PM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<GoCodescan color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">BUG HUNT</h3>
-          <h4 className="text-sm vertical-timeline-element-subtitle">
-            Debugging
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="2:00PM - 4:00PM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<GiOpenTreasureChest color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">
-            HAZING HUNT
-          </h3>
-          <h4 className="text-sm vertical-timeline-element-subtitle">
-            Treasure Hunt
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: "#242424",
-            color: "#fff",
-            boxShadow: "none",
-          }}
-          date="4:00PM - 5:00PM"
-          iconStyle={{ background: "#6864ed", boxShadow: "none" }}
-          icon={<FaTrophy color="#fff" />}
-        >
-          <h3 className="text-xl vertical-timeline-element-title">
-            CLOSING CEREMONY
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-            minima?
-          </p>
-        </VerticalTimelineElement>
+        {schedules.map(({ date, icon, title, subTitle, text }, index) => (
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "#242424",
+              color: "#fff",
+              boxShadow: "none",
+            }}
+            date={date}
+            iconStyle={{ background: "#6864ed ", boxShadow: "none" }}
+            icon={icon}
+          >
+            <h3 className="text-xl vertical-timeline-element-title uppercase">
+              {title}
+            </h3>
+            <h4 className="text-sm vertical-timeline-element-subtitle">
+              {subTitle}
+            </h4>
+            <p>{text}</p>
+          </VerticalTimelineElement>
+        ))}
       </VerticalTimeline>
     </div>
   );
