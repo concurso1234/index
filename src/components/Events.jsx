@@ -9,7 +9,7 @@ const Events = () => {
       icon: <FaLaptop color="#fff" size={45} />,
       title: "Code Racer",
       subTitle: "Language: C",
-      fPrice: 4000,
+      fPrice: 5000,
       sPrice: 2000,
     },
     {
@@ -30,15 +30,15 @@ const Events = () => {
       icon: <BiSolidJoystick color="#fff" size={45} />,
       title: "Hazing Hunt",
       subTitle: "Treasure Hunt",
-      fPrice: 3000,
-      sPrice: 1500,
+      fPrice: 5000,
+      sPrice: "-",
     },
     {
       icon: <BiSolidJoystick color="#fff" size={45} />,
       title: "Gaming",
       subTitle: "e-Football 2023",
       fPrice: 3000,
-      sPrice: 1500,
+      sPrice: "-",
     },
   ];
 

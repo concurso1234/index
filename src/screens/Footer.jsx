@@ -5,7 +5,7 @@ const Footer = () => {
     <div id="contact" className="p-10 bg-gray-900 mt-12">
       <div className="container mx-auto flex flex-col md:flex-row md:justify-between">
         {/* Contact Section */}
-        <div className="flex flex-col text-center md:text-left mb-8 md:mb-0">
+        <div className="flex flex-col text-center md:text-right mb-8 md:mb-0">
           <h2 className="text-xl font-bold text-white mb-4">Contact Us</h2>
           <ul className="text-white text-sm">
             <li className="mb-2">

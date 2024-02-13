@@ -47,10 +47,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="11:30AM - 12:30AM"
-          contentArrowStyle={{
-            borderRight:
-              "7px solid  linear-gradient(to left, rgb(139, 92, 246), rgb(66, 153, 225))",
-          }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<MdQuiz color="#fff" />}
         >
@@ -71,7 +67,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="11:30AM - 1:00PM"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<BiSolidGame color="#fff" />}
         >
@@ -89,7 +84,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="2:00PM - 3:00PM"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<FaCode color="#fff" />}
         >
@@ -110,7 +104,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="3:00PM - 4:00PM"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<GoCodescan color="#fff" />}
         >
@@ -132,7 +125,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="2:00PM - 4:00PM"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<GiOpenTreasureChest color="#fff" />}
         >
@@ -156,7 +148,6 @@ const Timeline = () => {
             boxShadow: "none",
           }}
           date="4:00PM - 5:00PM"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "#6864ed", boxShadow: "none" }}
           icon={<FaTrophy color="#fff" />}
         >

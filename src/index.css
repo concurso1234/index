@@ -25,3 +25,17 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.fade {
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
