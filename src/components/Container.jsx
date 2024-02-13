@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import arrowImage from "../../public/arrow.png";
 import W3Icons from "./W3Icons";
 
 const texts = [
@@ -46,7 +47,7 @@ const Container = () => {
           </button>
           <img
             className="absolute top-12 -right-4 md:-right-6 w-5 md:w-10"
-            src="/arrow.png"
+            src={arrowImage}
             alt="arrow"
           />
         </div>

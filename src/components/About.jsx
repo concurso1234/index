@@ -1,3 +1,4 @@
+import collegePic from "../../public/college2.jpeg";
 const About = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const About = () => {
       <div className="flex flex-col items-center md:flex-row p-5">
         <div className="w-64 md:min-w-64 h-64">
           <img
-            src="/college2.jpeg"
+            src={collegePic}
             alt="college"
             className="w-full h-full rounded-lg shadow-stone-700 shadow-md"
           />
