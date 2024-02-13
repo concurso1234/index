@@ -21,7 +21,7 @@ const About = () => {
             className="w-full h-full rounded-lg shadow-stone-700 shadow-md"
           />
         </div>
-        <div className="flex flex-col md:ml-8 mt-8 md:mt-0 text-white text-sm md:text-base">
+        <div className="flex flex-col md:ml-8 mt-8 md:mt-0 text-white text-center md:text-left text-sm md:text-base">
           <p>
             <strong>Concurso</strong>, the esteemed IT fest, returns with a wave
             of anticipation and excitement. Renowned for its fusion of

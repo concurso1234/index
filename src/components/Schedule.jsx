@@ -9,9 +9,7 @@ const Schedule = () => {
         </h1>
         <div className="flex justify-center items-center">
           <div className="bg-gradient-to-r from-purple-500 to-blue-500 w-20 md:w-32 h-[1px]" />
-          <p className="text-white text-sm md:text-lg font-semibold ml-3">
-            2024
-          </p>
+          <p className="text-white text-sm md:text-lg font-semibold ml-3"></p>
         </div>
       </div>
       <div>
