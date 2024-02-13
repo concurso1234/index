@@ -1,6 +1,7 @@
 import { FaLaptop } from "react-icons/fa";
 import { FaBug } from "react-icons/fa";
 import { FaLightbulb } from "react-icons/fa";
+import { GiTreasureMap } from "react-icons/gi";
 import { BiSolidJoystick } from "react-icons/bi";
 
 const Events = () => {
@@ -27,7 +28,7 @@ const Events = () => {
       sPrice: 1500,
     },
     {
-      icon: <BiSolidJoystick color="#fff" size={45} />,
+      icon: <GiTreasureMap color="#fff" size={45} />,
       title: "Hazing Hunt",
       subTitle: "Treasure Hunt",
       fPrice: 5000,
@@ -66,11 +67,11 @@ const Events = () => {
                 <h1 className="text-xl text-white uppercase">{title}</h1>
                 <p className="text-sm text-gray-300">{subTitle}</p>
                 <p className="text-white mt-5">
-                  First Price: <span className="font-bold">₹{fPrice}</span>
+                  First Prize: <span className="font-bold">₹{fPrice}</span>
                 </p>
                 {sPrice && (
                   <p className="text-white mt-1">
-                    Second Price:{" "}
+                    Second Prize:{" "}
                     <span className="font-semibold">₹{sPrice}</span>
                   </p>
                 )}
