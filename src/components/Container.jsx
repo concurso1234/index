@@ -24,8 +24,8 @@ const Container = () => {
       <div>
         <W3Icons />
       </div>
-      <div className="flex flex-col items-center w-full h-[22rem] md:h-[38rem]">
-        <h1 className="text-white text-center md:mb-1 text-xs md:text-2xl">
+      <div className="flex flex-col items-center w-full mt-6 md:mt-0 h-[24rem] md:h-[38rem]">
+        <h1 className="text-white text-center mb-1 text-base md:text-2xl">
           {texts.map((text, index) => (
             <span
               key={index}
@@ -35,14 +35,14 @@ const Container = () => {
             </span>
           ))}
         </h1>
-        <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold bg-gradient-to-b text-transparent bg-clip-text from-blue-500 to-purple-500">
+        <h1 className="text-6xl lg:text-8xl font-bold bg-gradient-to-b text-transparent bg-clip-text from-blue-500 to-purple-500">
           Concurso '24
         </h1>
-        <h3 className="text-white mt-2 text-sm md:text-2xl lg:text-4xl font-semibold">
+        <h3 className="text-white mt-2 text-lg md:text-2xl lg:text-4xl font-semibold">
           Inter-Collegiate IT FEST
         </h3>
         <div className="relative">
-          <button className="mt-6 outline-none text-white text-[10px] md:text-lg lg:text-xl border-[#EB7EF1] border-2 rounded-md p-2 md:p-3 uppercase font-semibold hover:bg-[#EB7EF1] hover:border-transparent hover:text-gray-900 transition duration-300 ease-in-out">
+          <button className="mt-6 outline-none text-white text-lg lg:text-xl border-[#EB7EF1] border-2 rounded-md p-2 md:p-3 uppercase font-semibold hover:bg-[#EB7EF1] hover:border-transparent hover:text-gray-900 transition duration-300 ease-in-out">
             <a href="#">Register Now</a>
           </button>
           <img

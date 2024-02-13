@@ -31,14 +31,14 @@ const Events = () => {
       title: "Hazing Hunt",
       subTitle: "Treasure Hunt",
       fPrice: 5000,
-      sPrice: "-",
+      // sPrice: "-",
     },
     {
       icon: <BiSolidJoystick color="#fff" size={45} />,
       title: "Gaming",
       subTitle: "e-Football 2023",
       fPrice: 3000,
-      sPrice: "-",
+      // sPrice: "-",
     },
   ];
 
@@ -61,16 +61,19 @@ const Events = () => {
               key={index}
               className="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 mt-4"
             >
-              <div className="flex flex-col items-center bg-[#242424] p-5 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer">
+              <div className="flex flex-col items-center w-60 h-64 md:w-52 bg-[#242424] p-5 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer">
                 <div className="p-5">{icon}</div>
                 <h1 className="text-xl text-white uppercase">{title}</h1>
                 <p className="text-sm text-gray-300">{subTitle}</p>
                 <p className="text-white mt-5">
                   First Price: <span className="font-bold">₹{fPrice}</span>
                 </p>
-                <p className="text-white mt-1">
-                  Second Price: <span className="font-semibold">₹{sPrice}</span>
-                </p>
+                {sPrice && (
+                  <p className="text-white mt-1">
+                    Second Price:{" "}
+                    <span className="font-semibold">₹{sPrice}</span>
+                  </p>
+                )}
               </div>
             </div>
           ))}

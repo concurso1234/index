@@ -2,7 +2,7 @@ import collegePic from "../../public/college2.jpeg";
 const About = () => {
   return (
     <>
-      <div id="about" className="flex flex-col items-start mt-10 mb-32">
+      <div id="about" className="flex flex-col items-start">
         <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
           About
         </h1>
@@ -14,7 +14,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row p-5">
+      <div className="flex flex-col items-center md:flex-row">
         <div className="w-64 md:min-w-64 h-64">
           <img
             src={collegePic}

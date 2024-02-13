@@ -42,22 +42,22 @@ const Navbar = () => {
         </svg>
 
         <div
-          className={`absolute md:hidden top-12 right-4 bg-slate-600 rounded-md shadow-md w-32 transition-opacity duration-300 ${
+          className={`absolute md:hidden z-10 top-12 right-4 bg-slate-600 rounded-md shadow-md w-32 transition-opacity duration-300 ${
             showToggle ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
         >
           <ul className="flex flex-col items-end text-sm p-2 space-y-2">
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="www.google.com">HOME</a>
+              <a href="#">HOME</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#">EVENTS</a>
+              <a href="#events">EVENTS</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#">ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
               <a href="#">REGISTER</a>
