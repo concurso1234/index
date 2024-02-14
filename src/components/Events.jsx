@@ -1,10 +1,14 @@
+import { useState } from "react";
 import { FaLaptop } from "react-icons/fa";
 import { FaBug } from "react-icons/fa";
 import { FaLightbulb } from "react-icons/fa";
 import { GiTreasureMap } from "react-icons/gi";
 import { BiSolidJoystick } from "react-icons/bi";
+import { IoCloseSharp } from "react-icons/io5";
 
 const Events = () => {
+  const [showRules, setShowRules] = useState(false);
+
   const eventList = [
     {
       icon: <FaLaptop color="#fff" size={45} />,
@@ -45,7 +49,10 @@ const Events = () => {
 
   return (
     <>
-      <div id="events" className="flex flex-col items-start md:mt-10 mb-32">
+      <div
+        id="events"
+        className="relative flex flex-col items-start md:mt-10 mb-32"
+      >
         <h1 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
           Events
         </h1>
@@ -63,7 +70,10 @@ const Events = () => {
                 key={index}
                 className="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 mt-4"
               >
-                <div className="flex flex-col items-center w-60 h-64 md:w-52 bg-[#242424] p-5 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer">
+                <div
+                  className="flex flex-col items-center w-60 h-64 md:w-[12rem] bg-[#242424] p-4 rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform-gpu hover:scale-110 cursor-pointer"
+                  onClick={() => setShowRules(!showRules)}
+                >
                   <div className="p-5">{icon}</div>
                   <h1 className="text-xl text-white uppercase">{title}</h1>
                   <p className="text-sm text-gray-300">{subTitle}</p>
@@ -76,7 +86,6 @@ const Events = () => {
                       Prize Pool: <span className="font-bold">₹{prize}</span>
                     </p>
                   )}
-
                   {sPrice && (
                     <p className="text-white mt-1">
                       Second Prize:{" "}
@@ -84,6 +93,19 @@ const Events = () => {
                     </p>
                   )}
                 </div>
+                {/* {showRules && (
+                  <div className="absolute top-0 left-0 w-full h-full bg-black flex justify-center items-start rounded-2xl">
+                    <IoCloseSharp
+                      className="absolute top-3 right-3 cursor-pointer"
+                      color="#fff"
+                      size={20}
+                      onClick={() => setShowRules(!showRules)}
+                    />
+                    <h1 className="text-white mt-7 font-semibold text-2xl">
+                      {title} Rules
+                    </h1>
+                  </div>
+                )} */}
               </div>
             )
           )}

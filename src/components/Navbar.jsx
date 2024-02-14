@@ -12,10 +12,10 @@ const Navbar = () => {
         <div className="hidden md:flex items-center">
           <ul className="flex space-x-6 text-base">
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
-              <a href="#">HOME</a>
+              <a href="#events">EVENTS</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
-              <a href="#events">EVENTS</a>
+              <a href="/rules">RULES</a>
             </li>
             <li className="font-light hover:text-blue-500 transition-colors duration-300 cursor-pointer">
               <a href="#about">ABOUT</a>
@@ -50,10 +50,10 @@ const Navbar = () => {
         >
           <ul className="flex flex-col items-end text-sm p-2 space-y-2">
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#">HOME</a>
+              <a href="#events">EVENTS</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#events">EVENTS</a>
+              <a href="/rules">RULES</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
               <a href="#about">ABOUT</a>
@@ -62,7 +62,7 @@ const Navbar = () => {
               <a href="#contact">CONTACT</a>
             </li>
             <li className="cursor-pointer text-white hover:text-blue-500">
-              <a href="#">REGISTER</a>
+              <a href="https://forms.gle/qm2nvPdCKPs5c1LZ7">REGISTER</a>
             </li>
           </ul>
         </div>

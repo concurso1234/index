@@ -15,17 +15,17 @@ import "react-vertical-timeline-component/style.min.css";
 const Timeline = () => {
   const schedules = [
     {
-      date: "9:00AM - 10:00AM",
+      date: "9:30AM - 10:30AM",
       icon: <FaPen color="#fff" />,
       title: "Registration",
       subTitle: "Online and Spot",
       text: "Secure your spot and unlock endless possibilities by registering for our captivating IT fest today.",
     },
     {
-      date: "10:00AM - 11:30AM",
+      date: "10:30AM - 11:30AM",
       icon: <FaCut color="#fff" />,
       title: "Inaugration",
-      subTitle: "Online and Spot",
+      subTitle: "Overview of event",
       text: "Join us as we kick off our IT fest with an inspiring inauguration ceremony.",
     },
     {
@@ -50,7 +50,7 @@ const Timeline = () => {
       text: "Unleash your coding prowess and conquer challenges in our coding competition.",
     },
     {
-      date: "2:00PM - 3:00PM",
+      date: "3:00PM - 4:00PM",
       icon: <GoCodescan color="#fff" />,
       title: "Bug Hunt",
       subTitle: "Debugging",
@@ -64,7 +64,7 @@ const Timeline = () => {
       text: "Embark on an exhilarating adventure and uncover hidden treasures in our thrilling treasure hunt",
     },
     {
-      date: "2:00PM - 4:00PM",
+      date: "4:00PM - 5:00PM",
       icon: <FaTrophy color="#fff" />,
       title: "Closing ceremony",
       subTitle: "Prize Distribution",
@@ -77,6 +77,7 @@ const Timeline = () => {
       <VerticalTimeline lineColor="linear-gradient(180deg, #bb29ff 0%, #4299E1 100%)">
         {schedules.map(({ date, icon, title, subTitle, text }, index) => (
           <VerticalTimelineElement
+            key={index}
             className="vertical-timeline-element--work"
             contentStyle={{
               background: "#242424",
