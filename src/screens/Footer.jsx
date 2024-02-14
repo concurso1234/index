@@ -9,6 +9,9 @@ const Footer = () => {
           <h2 className="text-xl font-bold text-white mb-4">Contact Us</h2>
           <ul className="text-white text-sm">
             <li className="mb-2">
+              <span className="font-semibold">Sheeba M:</span> +917907073319
+            </li>
+            <li className="mb-2">
               <span className="font-semibold">Mohammed Razi:</span>{" "}
               +919562002459
             </li>
@@ -32,6 +35,11 @@ const Footer = () => {
               <FaFacebook color="#fff" className="text-xl" />
             </a>
           </div>
+          <p className="text-white text-sm mt-3 text-center  underline">
+            <a href="mailto:concursosjcp41@gmail.com">
+              concursosjcp41@gmail.com
+            </a>
+          </p>
         </div>
 
         {/* Location Section */}

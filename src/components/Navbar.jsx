@@ -26,7 +26,9 @@ const Navbar = () => {
           </ul>
           <div className="ml-[40px]">
             <button className="text-xs md:text-sm px-4 py-2 rounded-md cursor-pointer transition-all duration-300 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
-              <a href="#">REGISTER</a>
+              <a href="https://forms.gle/qm2nvPdCKPs5c1LZ7" target="_blank">
+                REGISTER
+              </a>
             </button>
           </div>
         </div>
