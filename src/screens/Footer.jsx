@@ -3,9 +3,9 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <div id="contact" className="p-10 bg-gray-900 mt-12">
-      <div className="container mx-auto flex flex-col md:flex-row md:justify-between">
+      <div className="container mx-auto flex flex-col lg:flex-row md:justify-between">
         {/* Contact Section */}
-        <div className="flex flex-col text-center md:text-right mb-8 md:mb-0">
+        <div className="flex flex-col text-center lg:text-right mb-8 md:mb-0">
           <h2 className="text-xl font-bold text-white mb-4">Contact Us</h2>
           <ul className="text-white text-sm">
             <li className="mb-2">
@@ -54,8 +54,13 @@ const Footer = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <p className="text-white mt-3">St Joseph's College, Pilathara</p>
+          {/* <p className="text-white mt-3">St Joseph's College, Pilathara</p> */}
         </div>
+      </div>
+      <div className="container mx-auto text-center mt-5 text-white">
+        <p className="text-xs md:text-sm">
+          &copy; 2024 St Joseph's College Pilathara
+        </p>
       </div>
     </div>
   );
