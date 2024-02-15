@@ -28,7 +28,10 @@ const Footer = () => {
             <a href="http://instagram.com/concurso_.24" target="_blank">
               <FaInstagram color="#fff" className="text-xl" />
             </a>
-            <a href="http://wa.me/+919847584237" target="_blank">
+            <a
+              href="https://chat.whatsapp.com/DsVM9DVOqae5NbZl6AwHvJ"
+              target="_blank"
+            >
               <FaWhatsapp color="#fff" className="text-xl" />
             </a>
             <a href="#" target="_blank">

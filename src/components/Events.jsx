@@ -76,7 +76,9 @@ const Events = () => {
                 >
                   <div className="p-5">{icon}</div>
                   <h1 className="text-xl text-white uppercase">{title}</h1>
-                  <p className="text-sm text-gray-300">{subTitle}</p>
+                  <p className="text-sm text-gray-300 text-center">
+                    {subTitle}
+                  </p>
                   {fPrice ? (
                     <p className="text-white mt-5">
                       First Prize: <span className="font-bold">₹{fPrice}</span>
