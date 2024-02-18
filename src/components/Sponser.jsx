@@ -11,7 +11,7 @@ const Sponser = () => {
             Our Parterns & Sponsers
           </p>
         </div>
-        <div className="p-8 bg-black mt-10">Sponser card</div>
+        <div className="flex flex-wrap mt-7 justify-center items-center"></div>
       </div>
     </>
   );

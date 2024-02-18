@@ -34,7 +34,10 @@ const Footer = () => {
             >
               <FaWhatsapp color="#fff" className="text-xl" />
             </a>
-            <a href="#" target="_blank">
+            <a
+              href="https://www.facebook.com/p/St-Josephs-College-Pilathara-61556268426275/"
+              target="_blank"
+            >
               <FaFacebook color="#fff" className="text-xl" />
             </a>
           </div>
